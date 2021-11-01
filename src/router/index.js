@@ -29,7 +29,16 @@ const routes = [
       name: 'jbxx',
       component: () => import('../views/jbxx/index.vue'),
      },
-    
+     {
+      path: '/gowuc',
+      name: 'gowuc',
+      component: () => import('../views/gowuc/Home.vue'),
+    },
+    {
+      path: '/cart',
+      name: 'cart',
+      component: () => import('../views/gowuc/Cart.vue'),
+    },
      {
       path: 'kcgl',
       name: 'kcgl',

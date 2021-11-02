@@ -30,6 +30,11 @@ const routes = [
       component: () => import('../views/jbxx/index.vue'),
      },
      {
+      path: '/shouye',
+      name: 'shouye',
+      component: () => import('../views/shouye/shou.vue'),
+     },
+     {
       path: '/gowuc',
       name: 'gowuc',
       component: () => import('../views/gowuc/Home.vue'),

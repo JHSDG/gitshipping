@@ -16,11 +16,7 @@
         <ul>
           <li><router-link to="/about/"  class="sy">系统首页</router-link></li>
           <li><router-link to="/about/jbxx"  class="sy">基本信息</router-link></li>
-<<<<<<< HEAD
-          <li><router-link to="/kcgl"  class="sy">课程管理</router-link></li>
-=======
           <li><router-link to="/gowuc"  class="sy">课程管理</router-link></li>
->>>>>>> gowuc
           
         </ul>
       </div>

@@ -5,16 +5,6 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-<<<<<<< HEAD
-    
-  },
-  mutations: {
-   
-  },
-  actions: {
-    
-    
-=======
     goodsData:[],
     cartData:[],
     totalMount:0,
@@ -49,7 +39,6 @@ export default new Vuex.Store({
     setData2(){
 
     }
->>>>>>> gowuc
   },
   modules: {
   }
